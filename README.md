@@ -1,4 +1,4 @@
-# vue-inject-script-web-extension-example
+# inject script web extension 範例 (Webpack + Vue)
 一個對特定頁面注入 webpack 編譯過的 vue 程式碼範例
 
 ### Demo：
