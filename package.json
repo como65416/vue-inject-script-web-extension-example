@@ -27,7 +27,7 @@
     "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "build": "webpack --config webpack.prod.js",
+    "build": "rm -rf public/dist && webpack --config webpack.prod.js",
     "start": "webpack --config webpack.config.js --watch",
     "package-extension": "cd public && zip -r ../extension.zip *"
   }
